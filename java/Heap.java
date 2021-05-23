@@ -35,7 +35,7 @@ class Heap {
 
 	/**
 	 * Inserts a new element in the heap
-	 * @params node 
+	 * @param node 
 	 */
 	public void push(int node) {
 		if (size == cap) this.increaseCap();
